@@ -48,7 +48,7 @@ function renderPocketList() {
 
 [pocketSearch, categoryFilter, areaFilter].forEach((control) => control.addEventListener(control === pocketSearch ? 'input' : 'change', renderPocketList));
 
-fetch('./tokyo-pocket-list.json')
+fetch('./tokyo-pocket-list.json?v=market-list-20261103')
   .then((response) => response.json())
   .then((places) => {
     pocketPlaces = places;
