@@ -9,3 +9,24 @@ document.querySelector('#copyButton').addEventListener('click', async () => {
     status.textContent = '無法自動複製，請直接將頁面中的問題貼到訊息中。';
   }
 });
+
+const recommendationForm = document.querySelector('#recommendationForm');
+const googleFormTarget = document.querySelector('#googleFormTarget');
+const formStatus = document.querySelector('#formStatus');
+let formSubmitted = false;
+
+recommendationForm.addEventListener('submit', () => {
+  formSubmitted = true;
+  const button = recommendationForm.querySelector('button[type="submit"]');
+  button.disabled = true;
+  formStatus.textContent = '正在送出你的推薦…';
+});
+
+googleFormTarget.addEventListener('load', () => {
+  if (!formSubmitted) return;
+  formSubmitted = false;
+  recommendationForm.reset();
+  const button = recommendationForm.querySelector('button[type="submit"]');
+  button.disabled = false;
+  formStatus.textContent = '謝謝！我們已經收到你的推薦。';
+});
