@@ -2130,5 +2130,38 @@
    35.69387,
    139.77452
   ]
+ },
+ {
+  "n": "築地場外市場",
+  "c": "市集",
+  "t": "海鮮／食品市場",
+  "a": "築地",
+  "h": "一般販售約 9:00–14:00（各店不同）",
+  "m": "https://www.google.com/maps/search/?api=1&query=%E7%AF%89%E5%9C%B0%E5%A0%B4%E5%A4%96%E5%B8%82%E5%A0%B4",
+  "note": "已排入 11/13 早餐；店家多在下午前收攤，建議早到",
+  "src": [["築地場外市場官方營運日曆", "https://www.tsukiji.or.jp/calendar/"]],
+  "ll": [35.6655, 139.7707]
+ },
+ {
+  "n": "Farmers Market @ UNU",
+  "c": "市集",
+  "t": "農夫市集／食品／手作",
+  "a": "青山・表參道",
+  "h": "每週六日 10:00–16:00",
+  "m": "https://www.google.com/maps/search/?api=1&query=Farmers%20Market%20%40%20UNU",
+  "note": "11/14（六）或 11/15（日）可順路；鄰近表參道、原宿與澀谷",
+  "src": [["Farmers Market @ UNU 官方資訊", "https://farmersmarkets.jp/contact/"]],
+  "ll": [35.6627, 139.709]
+ },
+ {
+  "n": "阿美橫町（アメ横）",
+  "c": "市集",
+  "t": "商店街／食品／零食",
+  "a": "上野・御徒町",
+  "h": "各店不同，多數約白天營業",
+  "m": "https://www.google.com/maps/search/?api=1&query=%E3%82%A2%E3%83%A1%E6%A8%AA%E5%95%86%E5%BA%97%E8%A1%97",
+  "note": "已在 11/15 上野行程附近；適合食品、零食與街頭小吃",
+  "src": [["GO TOKYO 阿美橫町介紹", "https://www.gotokyo.org/jp/spot/71/index.html"]],
+  "ll": [35.709, 139.774]
  }
 ]
