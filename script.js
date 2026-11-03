@@ -10,7 +10,7 @@ const selectedPlaces = new Map();
 let pocketPlaces = [];
 
 const escapeHtml = (value = '') => String(value).replace(/[&<>"]/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[char]));
-const placeKind = (category) => category === '景點' ? 'spot' : (category === '伴手禮' || category === '購物') ? 'gift' : 'food';
+const placeKind = (category) => (category === '景點' || category === '市集') ? 'spot' : (category === '伴手禮' || category === '購物') ? 'gift' : 'food';
 
 function updateSelectedCount() {
   selectedCount.textContent = `已勾選 ${selectedPlaces.size} 個`;
