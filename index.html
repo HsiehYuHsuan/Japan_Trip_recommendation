@@ -89,13 +89,16 @@
 
     <section id="feedback" class="feedback">
       <div class="section-title"><span>05</span><h2>直接留下你的推薦</h2><p>填寫完成後，回答會直接傳到我們的 Google 表單</p></div>
-      <div class="form-frame">
-        <iframe
-          src="https://docs.google.com/forms/d/e/1FAIpQLSc0QR7cX4DqbK_vz3-PjG1rCjvfWZ_W_pMgeYqj8zC2_0rqZw/viewform?embedded=true"
-          title="東京旅行推薦回覆表單"
-          referrerpolicy="strict-origin-when-cross-origin">載入中…</iframe>
-      </div>
-      <p class="form-note">不需要登入，也不會收集電子郵件地址。若表單無法顯示，可<a href="https://docs.google.com/forms/d/e/1FAIpQLSc0QR7cX4DqbK_vz3-PjG1rCjvfWZ_W_pMgeYqj8zC2_0rqZw/viewform" target="_blank" rel="noopener">在新分頁開啟 Google 表單</a>。</p>
+      <form id="recommendationForm" class="native-form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSc0QR7cX4DqbK_vz3-PjG1rCjvfWZ_W_pMgeYqj8zC2_0rqZw/formResponse" method="post" target="googleFormTarget">
+        <label class="form-field"><span>最近東京有哪些真正受到關注、值得去的新景點？</span><textarea name="entry.131475043" rows="4" placeholder="寫下你推薦的景點與原因…"></textarea></label>
+        <label class="form-field"><span>這份行程中，有哪些地方你覺得其實可以不用去？</span><textarea name="entry.890973598" rows="4" placeholder="如果有更好的安排，也歡迎告訴我們…"></textarea></label>
+        <label class="form-field"><span>各個區域有哪些在地人經常光顧的餐廳或咖啡店？</span><textarea name="entry.321660944" rows="4" placeholder="店名、區域或喜歡的餐點都可以…"></textarea></label>
+        <label class="form-field"><span>哪些店家最好提前預約？有什麼避開人潮的技巧？</span><textarea name="entry.696052605" rows="4" placeholder="分享預約方式、時段或避開人潮的方法…"></textarea></label>
+        <label class="form-field"><span>有哪些適合帶回台灣的東京伴手禮？</span><textarea name="entry.1749250682" rows="4" placeholder="食品、雜貨、文具或其他好物…"></textarea></label>
+        <div class="form-actions"><button type="submit">送出推薦</button><p id="formStatus" role="status" aria-live="polite">不需要每一題都回答。</p></div>
+      </form>
+      <iframe id="googleFormTarget" name="googleFormTarget" title="Google 表單提交結果" hidden></iframe>
+      <p class="form-note">不需要登入，也不會收集電子郵件地址。送出的內容會直接儲存到我們的 Google 表單。若無法送出，可<a href="https://docs.google.com/forms/d/e/1FAIpQLSc0QR7cX4DqbK_vz3-PjG1rCjvfWZ_W_pMgeYqj8zC2_0rqZw/viewform" target="_blank" rel="noopener">在新分頁開啟備用表單</a>。</p>
     </section>
   </main>
 
