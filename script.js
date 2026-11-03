@@ -37,8 +37,8 @@ const J = {
   '#feedback .section-title h2':'おすすめを直接送る','#feedback .section-title p':'回答は私たちのGoogleフォームへ直接届きます',
   '.form-field:nth-child(1) span':'最近の東京で、本当に話題になっているおすすめの新スポットはありますか？','.form-field:nth-child(2) span':'この日程の中で、行かなくてもよいと思う場所はありますか？','.form-field:nth-child(3) span':'各エリアで、地元の方がよく行くレストランやカフェはありますか？','.form-field:nth-child(4) span':'事前予約がおすすめのお店や、混雑を避けるコツはありますか？','.form-field:nth-child(5) span':'台湾へ持ち帰るのにおすすめの東京土産はありますか？',
   '.form-actions button':'おすすめを送信','#formStatus':'すべての質問に答えなくても大丈夫です。','.form-note':'ログインは不要で、メールアドレスも収集しません。回答はGoogleフォームに保存されます。送信できない場合は、<a href="https://docs.google.com/forms/d/e/1FAIpQLSc0QR7cX4DqbK_vz3-PjG1rCjvfWZ_W_pMgeYqj8zC2_0rqZw/viewform" target="_blank" rel="noopener">予備のフォームを開いてください</a>。',
-  '.volleyball-kicker':'ナイスレシーブ！','.volleyball-thanks h2':'おすすめをありがとうございます！','.volleyball-message':'皆さんのアドバイスのおかげで、東京旅行がもっと素敵なものになりそうです。',
-  'footer p:nth-child(1)':'私たちの東京旅行を一緒に考えてくださり、ありがとうございます。','footer p:nth-child(2)':'このページには氏名、宿泊先、予約番号、座席、支払い情報は掲載していません。'
+  '.volleyball-kicker':'ナイスレシーブ！','.volleyball-thanks h2':'THANK YOU.','.volleyball-message':'皆さんのアドバイスのおかげで、東京旅行がもっと素敵なものになりそうです。',
+  'footer p':'このページには氏名、宿泊先、予約番号、座席、支払い情報は掲載していません。'
 };
 if(ja){
   document.title='東京旅行のおすすめを教えてください';
